@@ -3,7 +3,8 @@ body {
     color: white;
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/047668fb-fcf5-4f67-8225-d13cc4435f67/dbip952-3d173e88-e826-47b5-9e96-bb249498e58a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDQ3NjY4ZmItZmNmNS00ZjY3LTgyMjUtZDEzY2M0NDM1ZjY3XC9kYmlwOTUyLTNkMTczZTg4LWU4MjYtNDdiNS05ZTk2LWJiMjQ5NDk4ZTU4YS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.eZ196z93TAAc2i0l63VjrTren2zncLN3PmzCt6pMYjs');
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;    
+    background-position: center;
 }
 
 header {
