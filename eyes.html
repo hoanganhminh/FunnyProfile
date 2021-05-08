@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyes see you</title>
+    <link rel="stylesheet" href="eyescss.css">
+</head>
+
+<body>
+    <header>
+        <h1>Eyes</h1>
+    </header>
+    <main>
+        <a class="back" href="minhmaster.html">Go back to my page!</a>
+        <a class="gthieu">Touch the screen so that i can see where your mouse or your finger is!</a>
+        <div class="eyes">
+            <div class="eye">
+                <div class="chat">
+                    <p><span></span></p>
+                </div>
+                <div class="shut">
+                    <span></span>
+                </div>
+                <div class="ball"></div>
+            </div>
+
+            <div class="eye">
+                <div class="chat">
+                    <p><span></span></p>
+                </div>
+                <div class="shut">
+                    <span></span>
+                </div>
+                <div class="ball"></div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h3>This page was created by Hoàng Anh Minh. If you need any further information, feel free to contact me.</h3>
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=100006564360112" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png"></a>
+            <a href="https://www.instagram.com/minhdeptraiquaaa/" target="blank"><img src="https://i.pinimg.com/originals/e8/b5/a4/e8b5a42291afe01a998952147150a672.png"></a>
+            <a href="mailto:minhhahe150966@fpt.edu.vn" target="blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqO1WepknHrs7y5bmvoY1ID1xOQFcJ-Q2O7384qmbVGTGeLRMYgZ5uzLCgk1ECE4RdUM&usqp=CAU"></a>
+        </div>
+    </footer>
+    <script>
+        var balls = document.getElementsByClassName("ball");
+        document.onmousemove = function() {
+            var x = event.clientX * 100 / window.innerWidth + "%";
+            var y = event.clientY * 100 / window.innerHeight + "%";
+            for (var i = 0; i < 2; i++) {
+                balls[i].style.left = x;
+                balls[i].style.top = y;
+                balls[i].style.transform = "translate(-" + x + ",-" + y + ")";
+            }
+        }
+    </script>
+</body>
+
+</html>
