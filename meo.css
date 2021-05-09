@@ -8,6 +8,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.notshow {
+    display:none;
+}
+
 .gotopbtn {
     position: fixed;
     width: 50px;
