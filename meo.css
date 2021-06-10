@@ -18,6 +18,10 @@ body {
     background: linear-gradient(transparent, orange , yellow, green, cyan, blue, violet,transparent);
 }
 
+.hai ul::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,blue, transparent);
+}
+
 .notshow {
     display: none;
 }
@@ -204,19 +208,19 @@ h3 {
 @keyframes slider {
     0% {
         box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
-        background-image: url('https://scontent.fhan5-2.fna.fbcdn.net/v/t1.6435-9/104632226_2710640729164713_2634655834685403423_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=uQYG16AAsMcAX9TGR1H&_nc_ht=scontent.fhan5-2.fna&oh=adf59014f2ebbf165ef6e48c9b1c1b00&oe=60AA8BF6');
+        background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/183393993_2966143966947720_2241531802222649962_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=w1xPIEymw2cAX_kasc6&_nc_ht=scontent.fhan14-2.fna&oh=9a034d9bbc6a97b4e0be19dd0daee7fc&oe=60E5C61E');
     }
     40% {
         box-shadow: 1px 1px 10px 10px rgb(0, 132, 255);
-        background-image: url('https://scontent.fhan5-4.fna.fbcdn.net/v/t1.6435-9/65113704_2400330620195727_2208253574062800896_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=19026a&_nc_ohc=KBKlpjd96FMAX-gWZ47&_nc_ht=scontent.fhan5-4.fna&oh=b256c7265857d9f48972c587ab41de0c&oe=60B110E4');
+        background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/181367472_2966144026947714_913386577868629331_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=e4B6LAPcNq4AX8Zg_gn&_nc_ht=scontent.fhan14-2.fna&oh=23273d1da2abae4b07e7829fecf11a31&oe=60E90B86');
     }
     80% {
         box-shadow: 1px 1px 10px 10px rgb(255, 0, 0);
-        background-image: url('https://scontent.fhan5-5.fna.fbcdn.net/v/t1.6435-9/181367472_2966144026947714_913386577868629331_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=UUpGRKQajTYAX9NzG8m&_nc_ht=scontent.fhan5-5.fna&oh=9e88d2475f86c82bcdeedcc645c3141f&oe=60BD8A06');
+        background-image: url('https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/183225324_2966143996947717_4829368958141751921_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=q414xPT29R0AX8BBg45&_nc_ht=scontent.fhan14-1.fna&oh=58cd5f4290658aecc09e2eeebfe53fe4&oe=60E6D134');
     }
     100% {
         box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
-        background-image: url('https://scontent.fhan5-2.fna.fbcdn.net/v/t1.6435-9/104632226_2710640729164713_2634655834685403423_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=uQYG16AAsMcAX9TGR1H&_nc_ht=scontent.fhan5-2.fna&oh=adf59014f2ebbf165ef6e48c9b1c1b00&oe=60AA8BF6');
+        background-image: url('https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/104632226_2710640729164713_2634655834685403423_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=4mr9sQUFrF8AX9vslPe&_nc_ht=scontent.fhan14-1.fna&oh=d6277753d518f16247e98b443d429ab7&oe=60E5DF76');
     }
 }
 
@@ -546,5 +550,21 @@ a:hover {
     .bonhai {
         width: 100%;
         height: 320px;
+    }
+    footer {
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer h3{
+        width: 80%;
+        text-align: center;
+    }
+    footer div{
+        width: 80%;
+        margin: 0 auto;
     }
 }
