@@ -208,19 +208,19 @@ h3 {
 @keyframes slider {
     0% {
         box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
-        background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/183393993_2966143966947720_2241531802222649962_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=w1xPIEymw2cAX_kasc6&_nc_ht=scontent.fhan14-2.fna&oh=9a034d9bbc6a97b4e0be19dd0daee7fc&oe=60E5C61E');
+        background-image: url('https://scontent.fhan5-3.fna.fbcdn.net/v/t1.6435-9/183393993_2966143966947720_2241531802222649962_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=pVVa9Z5feg4AX_Cyoki&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-3.fna&oh=ba26adb67ac57c083ce69585d6bf2a5e&oe=61C3421E');
     }
     40% {
         box-shadow: 1px 1px 10px 10px rgb(0, 132, 255);
-        background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/181367472_2966144026947714_913386577868629331_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=e4B6LAPcNq4AX8Zg_gn&_nc_ht=scontent.fhan14-2.fna&oh=23273d1da2abae4b07e7829fecf11a31&oe=60E90B86');
+        background-image: url('https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/181367472_2966144026947714_913386577868629331_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=YnpFhyerNp0AX-4prEK&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-8.fna&oh=88f2a7d7a8ccf472651a0a2493d969f9&oe=61C29306');
     }
     80% {
         box-shadow: 1px 1px 10px 10px rgb(255, 0, 0);
-        background-image: url('https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/183225324_2966143996947717_4829368958141751921_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=q414xPT29R0AX8BBg45&_nc_ht=scontent.fhan14-1.fna&oh=58cd5f4290658aecc09e2eeebfe53fe4&oe=60E6D134');
+        background-image: url('https://scontent.fhan5-9.fna.fbcdn.net/v/t1.18169-9/25396151_2046539448908181_3209147540988074913_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=h98UbYYdKW4AX_fjIa2&_nc_ht=scontent.fhan5-9.fna&oh=78b89b90a74011b85884a6e42d0c01f8&oe=61C31C5B');
     }
     100% {
         box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
-        background-image: url('https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/104632226_2710640729164713_2634655834685403423_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=4mr9sQUFrF8AX9vslPe&_nc_ht=scontent.fhan14-1.fna&oh=d6277753d518f16247e98b443d429ab7&oe=60E5DF76');
+        background-image: url('https://scontent.fhan5-2.fna.fbcdn.net/v/t1.6435-9/104632226_2710640729164713_2634655834685403423_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=iTNae1s0R2IAX8f2zMG&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-2.fna&oh=8933b11430c6974e2280bf8ba4c6ec93&oe=61C35B76');
     }
 }
 
@@ -321,7 +321,7 @@ a:hover {
 }
 
 .orange {
-    width: 80%;
+    width: 85%;
     height: 0.5rem;
     text-align: center;
     color: white;
@@ -346,11 +346,19 @@ a:hover {
 }
 
 .blue {
-    width: 60%;
+    width: 75%;
     height: 0.5rem;
     text-align: center;
     color: white;
     background-color: rgb(42, 39, 177);
+}
+
+.aqua {
+    width: 50%;
+    height: 0.5rem;
+    text-align: center;
+    color: white;
+    background-color: aqua;
 }
 
 .ma {
