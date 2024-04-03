@@ -1,8 +1,7 @@
 body {
-    cursor: url('https://png.pngitem.com/pimgs/s/191-1912403_intentions-of-space-exploration-rocket-cursor-hd-png.png'), pointer;
     margin: 0 auto;
     color: white;
-    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2daddf3c-add4-4a2b-880d-064be6821c92/dglksej-3ed5f398-b5c8-4d98-b908-43438b2964f2.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJkYWRkZjNjLWFkZDQtNGEyYi04ODBkLTA2NGJlNjgyMWM5MlwvZGdsa3Nlai0zZWQ1ZjM5OC1iNWM4LTRkOTgtYjkwOC00MzQzOGIyOTY0ZjIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bxIHtLdJMge5rLi2vf8I4OD6fJr5XSKJXUHbofhWDT8');
+    background-image: url('Assets/background6.gif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -18,7 +17,7 @@ body {
     background: linear-gradient(transparent, orange, yellow, green, cyan, blue, violet, transparent);
 }
 
-.hai ul::-webkit-scrollbar-thumb {
+.achievement ul::-webkit-scrollbar-thumb {
     background: linear-gradient(transparent, blue, transparent);
 }
 
@@ -161,9 +160,7 @@ h2 {
 }
 
 h2:hover {
-    font-size: 35px;
-    color: aqua;
-    -webkit-text-stroke: 1.5px black;
+    font-size: 30px;
 }
 
 h3 {
@@ -175,27 +172,27 @@ h3 {
     margin: 0;
 }
 
-.mot {
+.info {
     display: inline-block;
     text-align: center;
     width: 100%;
 }
 
-.mot p {
+.info p {
     margin: 0;
     transition: 0.5s all;
 }
 
-.mot p:hover {
+.info p:hover {
     font-size: 21px;
 }
 
-.mot_hai img {
+.image-info img {
     width: 100%;
     opacity: 0;
 }
 
-.mot_hai {
+.image-info {
     width: 50%;
     float: right;
     background-size: 104%;
@@ -204,33 +201,38 @@ h3 {
     transition: 0.5s all;
 }
 
-.mot_hai:hover {
+.image-info:hover {
     width: 51%;
 }
 
 @keyframes slider {
     0% {
         box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
-        background-image: url('https://scontent.fhan5-3.fna.fbcdn.net/v/t1.6435-9/183393993_2966143966947720_2241531802222649962_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=pVVa9Z5feg4AX_Cyoki&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-3.fna&oh=ba26adb67ac57c083ce69585d6bf2a5e&oe=61C3421E');
+        background-image: url('Assets/background2.gif');
     }
 
-    40% {
+    25% {
         box-shadow: 1px 1px 10px 10px rgb(0, 132, 255);
-        background-image: url('https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/181367472_2966144026947714_913386577868629331_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=YnpFhyerNp0AX-4prEK&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-8.fna&oh=88f2a7d7a8ccf472651a0a2493d969f9&oe=61C29306');
+        background-image: url('Assets/background3.gif');
     }
 
-    80% {
-        box-shadow: 1px 1px 10px 10px rgb(255, 0, 0);
-        background-image: url('https://scontent.fhan5-2.fna.fbcdn.net/v/t1.6435-9/104632226_2710640729164713_2634655834685403423_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=iTNae1s0R2IAX8f2zMG&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-2.fna&oh=8933b11430c6974e2280bf8ba4c6ec93&oe=61C35B76');
+    50% {
+        box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
+        background-image: url('Assets/background4.gif');
+    }
+
+    75% {
+        box-shadow: 1px 1px 10px 10px rgb(0, 132, 255);
+        background-image: url('Assets/background6.gif');
     }
 
     100% {
         box-shadow: 1px 1px 10px 10px rgb(0, 0, 0);
-        background-image: url('https://scontent.fhan5-3.fna.fbcdn.net/v/t1.6435-9/183393993_2966143966947720_2241531802222649962_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=pVVa9Z5feg4AX_Cyoki&tn=FO35ytpsM4xeJ71e&_nc_ht=scontent.fhan5-3.fna&oh=ba26adb67ac57c083ce69585d6bf2a5e&oe=61C3421E');
+        background-image: url('Assets/background2.gif');
     }
 }
 
-.mot_mot {
+.personal-info {
     padding: 2% 3% 0 3%;
     font-size: 120%;
     text-align: left;
@@ -238,12 +240,12 @@ h3 {
     margin: 0 auto;
 }
 
-.hai {
+.achievement {
     text-align: center;
     clear: both;
 }
 
-.hai div {
+.achievement div {
     display: inline-block;
     width: 28%;
     border: 3px solid white;
@@ -251,7 +253,7 @@ h3 {
     background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
-.hai h3 {
+.achievement h3 {
     border-bottom: 3px solid white;
     padding: 5% 0;
     font-size: 20px;
@@ -278,12 +280,11 @@ li {
 a {
     color: red;
     text-decoration: none;
-    transition: 1s all;
+    transition: 0.5s all;
 }
 
 a:hover {
     color: aqua;
-    font-size: 20px;
     cursor: url("Assets/rocket.png"), pointer;
 }
 
@@ -294,13 +295,13 @@ a:hover {
     margin: 30px auto;
 }
 
-.bonmot {
+.language-progress {
     width: 55%;
     float: left;
     height: 300px;
 }
 
-.bonhai {
+.ghost {
     width: 45%;
     float: right;
     height: 300px;
@@ -376,7 +377,7 @@ a:hover {
     justify-content: center;
 }
 
-.ghost {
+.ghost-body {
     width: 140px;
     height: 180px;
     background-color: #f2f2f2;
@@ -415,20 +416,20 @@ a:hover {
     transition: .1s linear;
 }
 
-.ghost:hover {
+.ghost-body:hover {
     cursor: url("cheese.png"), auto;
     background-color: rgb(255, 81, 0);
 }
 
-.ghost:hover .hands span {
+.ghost-body:hover .hands span {
     background-color: rgb(255, 81, 0);
 }
 
-.ghost:hover .feet span {
+.ghost-body:hover .feet span {
     background-color: rgb(255, 81, 0);
 }
 
-.ghost:hover .eyes span:last-child {
+.ghost-body:hover .eyes span:last-child {
     width: 0;
     height: 0;
     border-left: 18px solid rgb(255, 81, 0);
@@ -437,7 +438,7 @@ a:hover {
     border-bottom: 18px solid #000000;
 }
 
-.ghost:hover .eyes span:first-child {
+.ghost-body:hover .eyes span:first-child {
     width: 0;
     height: 0;
     border-left: 18px solid #000000;
@@ -455,7 +456,7 @@ a:hover {
     transition: .3s linear;
 }
 
-.ghost:hover .mouth {
+.ghost-body:hover .mouth {
     width: 50px;
     height: 25px;
     border-radius: 0 0 25px 25px;
@@ -508,7 +509,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 1023px) {
-    .hai div {
+    .achievement div {
         display: block;
         width: 90%;
         border: 3px solid white;
@@ -516,19 +517,19 @@ a:hover {
         background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
     }
 
-    .mot_mot {
+    .personal-info {
         padding: 0 3%;
         font-size: 100%;
         text-align: left;
     }
 
-    .mot p:hover {
+    .info p:hover {
         font-size: 17px;
     }
 }
 
 @media only screen and (max-width: 550px) {
-    .hai div {
+    .achievement div {
         display: block;
         width: 90%;
         border: 3px solid white;
@@ -536,17 +537,17 @@ a:hover {
         background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
     }
 
-    .mot_mot {
+    .personal-info {
         padding: 0 3%;
         font-size: 100%;
         text-align: left;
     }
 
-    .mot p:hover {
+    .info p:hover {
         font-size: 17px;
     }
 
-    .mot_hai {
+    .image-info {
         width: 95%;
         margin: 0 2%;
         margin-bottom: 20px;
@@ -555,7 +556,7 @@ a:hover {
         animation: slider 10s infinite linear
     }
 
-    .mot_hai:hover {
+    .image-info:hover {
         width: 97%;
     }
 
@@ -565,12 +566,12 @@ a:hover {
         flex-direction: column
     }
 
-    .bonmot {
+    .language-progress {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    .bonhai {
+    .ghost {
         width: 100%;
         height: 320px;
     }

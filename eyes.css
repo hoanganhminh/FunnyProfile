@@ -1,8 +1,7 @@
 body {
-    cursor: url('https://png.pngitem.com/pimgs/s/191-1912403_intentions-of-space-exploration-rocket-cursor-hd-png.png'), pointer;
     margin: 0 auto;
     color: white;
-    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2daddf3c-add4-4a2b-880d-064be6821c92/dglksej-3ed5f398-b5c8-4d98-b908-43438b2964f2.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJkYWRkZjNjLWFkZDQtNGEyYi04ODBkLTA2NGJlNjgyMWM5MlwvZGdsa3Nlai0zZWQ1ZjM5OC1iNWM4LTRkOTgtYjkwOC00MzQzOGIyOTY0ZjIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bxIHtLdJMge5rLi2vf8I4OD6fJr5XSKJXUHbofhWDT8');
+    background-image: url('Assets/background4.gif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -48,9 +47,7 @@ a:hover {
 }
 
 .gthieu:hover {
-    font-size: 28px;
-    color: aqua;
-    -webkit-text-stroke: 1.5px black;
+    font-size: 24px;
 }
 
 footer {
@@ -105,7 +102,7 @@ main {
 
 .back:hover {
     background-color: red;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .eyes {
@@ -179,10 +176,6 @@ main {
     content: '';
 }
 
-.eye:hover .chat p span::after {
-    content: 'Aah! dont touch my eye..';
-}
-
 @media only screen and (max-width: 550px) {
     .eye {
         padding: 0;
@@ -215,7 +208,6 @@ main {
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2000;
-        content: 'Aah! dont touch my eye..';
         color: white;
         font-size: 8px;
     }
