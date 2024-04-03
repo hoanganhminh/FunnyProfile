@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     color: white;
-    background-image: url('Assets/background6.gif');
+    background-image: url('Assets/background2.gif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -91,7 +91,8 @@ footer img {
 
 footer img:hover {
     width: 54px;
-    border: 4px solid aqua;
+    /* background: linear-gradient(to bottom right, #2c90fc 0%, #b8fd33 25%, #fec837 50%, #fd1892 75%, #b827fc 100%); */
+    /* border-image: linear-gradient(to bottom right, #2c90fc 0%, #b8fd33 25%, #fec837 50%, #fd1892 75%, #b827fc 100%); */
 }
 
 main {
@@ -146,14 +147,10 @@ h3 {
     width: 50%;
     float: right;
     background-size: 104%;
-    animation: slider 12s infinite ease-in-out;
+    animation: slider 12s infinite ease-in;
     margin: 2% 5% 0 0;
     transition: 0.5s all;
 }
-
-/* .image-info:hover {
-    width: 51%;
-} */
 
 @keyframes slider {
     0% {
@@ -238,7 +235,7 @@ a:hover {
     cursor: url("Assets/rocket.png"), pointer;
 }
 
-.bon {
+.additional-info {
     width: 90%;
     display: flex;
     justify-content: center;
@@ -258,7 +255,7 @@ a:hover {
     cursor: url("Assets/cheese.png"), auto;
 }
 
-.bon p {
+.additional-info p {
     margin: 13px 0 0 0;
     font-weight: bold;
 }
@@ -510,7 +507,7 @@ a:hover {
         width: 97%;
     }
 
-    .bon {
+    .additional-info {
         width: 90%;
         display: flex;
         flex-direction: column
