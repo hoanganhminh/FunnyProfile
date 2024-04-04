@@ -364,7 +364,7 @@ a:hover {
 }
 
 .ghost-body:hover {
-    cursor: url("cheese.png"), auto;
+    cursor: url("/Assets/cheese.png"), auto;
     background-color: rgb(255, 81, 0);
 }
 
